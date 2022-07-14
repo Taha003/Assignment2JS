@@ -1,5 +1,6 @@
+//chap 31-34
 //Q1:
-let date=new Date();
+// let date=new Date();
 
 
 // document.write('<br>'+date);
