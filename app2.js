@@ -1,8 +1,9 @@
+//Chap 35-39;
 //Q1:
 // function curDate(dy){
 //     let currentDate='The current date is '+dy;
 //     return currentDate;
-// }
+//  }
 // dy=new Date();
 // document.write('<br>'+curDate(dy));
 
@@ -113,14 +114,40 @@
 alert('your hyp is '+tri(per,base));
 
 //Q9:
-function area(width,height){
-    let res=width*height;
-    return res;
-}
+// function area(width,height){
+//     let res=width*height;
+//     return res;
+// }
 
-width=+prompt('Enter width of your rectangle');
-height=+prompt('Enter height if your rectangle');
+// width=+prompt('Enter width of your rectangle');
+// height=+prompt('Enter height if your rectangle');
 
-alert('Your area of rectangle is '+area(width,height));
+// alert('Your area of rectangle is '+area(width,height));
 
 //Q10:
+// function palindrome(str){
+//     let original=str;
+//     var x=str.split("");
+//     var y=x.reverse();
+//     y=y.join("");
+
+//     if(original==y){
+//         alert(str + " is a palindrome")
+//     }
+
+//     else{
+//         alert(str + " is not a palindrome")
+//     }
+// }
+
+// str=prompt('enter your text');
+// palindrome(str);
+
+//Q11:
+// function upperCase(string){
+//     let upperCaseString=string.toUpperCase()
+//     return upperCaseString;
+// }
+
+// string=prompt('Enter your string');
+// alert(upperCase(string));
